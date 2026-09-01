@@ -1,20 +1,32 @@
+import Navbar from "./components/Navbar"
+
 function App() {
   return (
-    <main className="min-h-screen bg-[#F5F3EE] flex items-center justify-center">
-      <div className="text-center">
-        <p className="text-sm tracking-[0.3em] uppercase text-[#B48455]">
-          Constructora
-        </p>
+    <>
+      <Navbar />
 
-        <h1 className="mt-4 text-7xl font-bold text-[#1C211D]">
-          BALEI
-        </h1>
+      <main>
+        <section id="inicio" className="min-h-screen bg-[#F5F3EE]">
+          Hero
+        </section>
 
-        <p className="mt-4 text-[#6B7167]">
-          Construimos espacios pensados para durar.
-        </p>
-      </div>
-    </main>
+        <section id="servicios" className="min-h-screen bg-white">
+          Servicios
+        </section>
+
+        <section id="proyectos" className="min-h-screen bg-[#F5F3EE]">
+          Proyectos
+        </section>
+
+        <section id="nosotros" className="min-h-screen bg-white">
+          Nosotros
+        </section>
+
+        <section id="contacto" className="min-h-screen bg-[#F5F3EE]">
+          Contacto
+        </section>
+      </main>
+    </>
   )
 }
 
